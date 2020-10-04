@@ -69,12 +69,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid black;
+  border-radius: 20%;
+  border: 1px solid black;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -166,6 +166,39 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  background-color: #af4c4c;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(211, 155, 155);
+}
+
+.button:hover {background-color: #000000}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+
+figure img {
+  height: 200px;
+  width: 300px;
+}
+
+figcaption {
+  text-align: center;
 }
 
 /* Styles for larger screens */
