@@ -183,7 +183,7 @@ a.social:hover {
   box-shadow: 0 9px rgb(211, 155, 155);
 }
 
-.button:hover {background-color: #000000}
+.button:hover {background-color: rgb(104, 38, 38)}
 
 .button:active {
   background-color: #3e8e41;
